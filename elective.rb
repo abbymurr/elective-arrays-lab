@@ -5,20 +5,29 @@ electives = ["photography", "ceramics", "music", "robotics", "web development", 
 
 #1: Create a method called count_items that takes an array as an argument and RETURNS (don't use puts) the number of items in the array. Take a look through the Ruby documentation to see if there is an array method built in to ruby that can help you count the items. 
 def count_items(elective_array)
+    elective_array.length
 
 end
 
 #2: Create a method called first_item that takes an array as an argument and returns the first item in the array.
-
+def first_item(arrayz)
+    arrayz.first
+end
 
 #3: Create a method called last_item that takes an array as an argument and returns the last item in the array. 
-
+def last_item(aarray)
+    aarray.last
+end
 
 #4: Create a method called alphabetical_first that takes an array as an argument and returns the first item from an array when it is sorted in alphabetical order. 
-
+def alphabetical_first(array)
+    array.sort.first
+end
 
 #5: Create a method called random_item that will return a random item from an array that is given as an argument.
-
+def random_item(arrays)
+    arrays.sample
+end
 
 #6: After mulling over these elective options, you've decided you don't want to take an independent study anymore. Write a method called remove_item that removes the last item in the array and then prints out the array to the screen.
 
